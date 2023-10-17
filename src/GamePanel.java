@@ -8,11 +8,11 @@ public class GamePanel extends JPanel implements ActionListener{
     static final int SCREEN_HEIGHT = 600;
     static final int ObjectSize= 25;
     static final int NoOfObjects= (SCREEN_HEIGHT*SCREEN_WIDTH)/ObjectSize;
-    static final int ScreenRate = 75;
+    static final int ScreenRate = 150;
     final int x[] = new int[NoOfObjects];
     final int y[] =  new int[NoOfObjects];
-    int bodyParts = 6;
-    int EatenFood;
+    int bodyParts = 24;
+    int EatenFood=30;
     boolean running;
     char DirectionOfSnake = 'R';
     int XFoodCoordinate;
